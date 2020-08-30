@@ -1,0 +1,22 @@
+{
+  "name": "koa-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "page": "node ./src/page.js",
+    "api": "node ./src/api.js",
+    "router": "node ./src/router.js",
+    "intercept": "node ./src/intercept.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-better-router": "^2.1.1",
+    "koa-views": "^6.3.0",
+    "nunjucks": "^3.2.2"
+  }
+}
